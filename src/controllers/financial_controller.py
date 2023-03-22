@@ -11,3 +11,4 @@ def get_all_markets():
     markets = service.get_markets()
     return jsonify(markets)
 
+
